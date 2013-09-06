@@ -1,0 +1,5 @@
+default['glpi_app']['db_user'] = 'glpi_app'
+default['glpi_app']['db_name'] = 'glpi'
+default['glpi_app']['server_name'] = 'glpi.example.com'
+default['glpi_app']['docroot'] = '/var/www/glpi'
+default['glpi_app']['config_dir'] = '/var/www/glpi/config'

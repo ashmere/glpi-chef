@@ -1,0 +1,10 @@
+?php
+// Database connection config
+return array(
+    'db_master' => array(
+        <% @db_master.each do |key, value| -%>
+        '<%= key %>' => '<%= value %>',
+        <% end -%>
+    ),
+);
+
